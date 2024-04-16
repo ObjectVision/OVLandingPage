@@ -3,7 +3,7 @@
       <div class="flex lg:flex-1">
         <a href="#" class="-m-1.5 p-1.5">
           <span class="sr-only">Your Company</span>
-          <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
+          <img class="h-8 w-auto" src="assets/ov_logo.svg" alt="">
         </a>
       </div>
       <div class="flex lg:hidden">
@@ -15,9 +15,11 @@
         </button>
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
+        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
+        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">About</a>
         <div class="relative">
           <button type="button" class="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900" aria-expanded="false" (click)="onProductToggle()">
-            Product
+            Products
             <svg class="h-5 w-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
               <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
             </svg>
@@ -35,7 +37,7 @@
 
               (click)="clickEvent()"
           -->
-          <div [ngClass]="{'absolute':true, 'hidden':product_state, '-left-8':true, 'top-full':true, 'z-10':true, 'mt-3':true, 'w-screen':true, 'max-w-md':true, 'overflow-hidden':true, 'rounded-3xl':true, 'bg-white':true, 'shadow-lg':true, 'ring-1':true, 'ring-gray-900/5':true}">  <!--</div> class="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5" > -->
+          <div [ngClass]="{'absolute':true, 'hidden':product_state, '-left-8':true, 'top-full':true, 'z-10':true, 'mt-3':true, 'w-screen':true, 'max-w-md':true, 'overflow-hidden':true, 'rounded-3xl':true, 'bg-white':true, 'shadow-lg':true, 'ring-1':true, 'ring-gray-900/5':true}">
           
           <!-- <div [ngClass]="{'absolute':true, 'hidden':product_state}"> -->
             <div class="p-4">
@@ -48,10 +50,10 @@
                 </div>
                 <div class="flex-auto">
                   <a href="#" class="block font-semibold text-gray-900">
-                    Analytics
+                    Routing
                     <span class="absolute inset-0"></span>
                   </a>
-                  <p class="mt-1 text-gray-600">Get a better understanding of your traffic</p>
+                  <p class="mt-1 text-gray-600">Fast N-origins to M-destinations routing</p>
                 </div>
               </div>
               <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
@@ -62,10 +64,10 @@
                 </div>
                 <div class="flex-auto">
                   <a href="#" class="block font-semibold text-gray-900">
-                    Engagement
+                    Landuse modelling
                     <span class="absolute inset-0"></span>
                   </a>
-                  <p class="mt-1 text-gray-600">Speak directly to your customers</p>
+                  <p class="mt-1 text-gray-600">High resolution state of the art landuse modelling</p>
                 </div>
               </div>
               <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
@@ -76,10 +78,10 @@
                 </div>
                 <div class="flex-auto">
                   <a href="#" class="block font-semibold text-gray-900">
-                    Security
+                    Geospatial algorithms
                     <span class="absolute inset-0"></span>
                   </a>
-                  <p class="mt-1 text-gray-600">Your customers’ data will be safe and secure</p>
+                  <p class="mt-1 text-gray-600">test</p>
                 </div>
               </div>
               <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
@@ -128,9 +130,8 @@
           </div>
         </div>
   
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Features</a>
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Marketplace</a>
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Company</a>
+        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Contact</a>
+        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">News</a>
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
         <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
@@ -144,7 +145,7 @@
         <div class="flex items-center justify-between">
           <a href="#" class="-m-1.5 p-1.5">
             <span class="sr-only">Your Company</span>
-            <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
+            <img class="h-8 w-auto" src="assets/ov_logo_no_text.svg" alt="">
           </a>
           <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
             <span class="sr-only">Close menu</span>
